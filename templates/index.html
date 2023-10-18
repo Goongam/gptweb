@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Analyzer</title>
+  </head>
+  <body>
+    <h1>텍스트 파일 분석 웹 페이지</h1>
+    <form method="post" enctype="multipart/form-data">
+      <input type="file" name="file" />
+      <br />
+      <input type="submit" value="파일 분석" />
+    </form>
+    <h2>분석 결과:</h2>
+    <p>{{ result }}</p>
+  </body>
+</html>
